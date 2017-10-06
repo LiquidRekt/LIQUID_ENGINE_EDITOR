@@ -1,0 +1,19 @@
+﻿<Window x:Class="LIQUID_ENGINE_editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LIQUID_ENGINE_editor"
+        mc:Ignorable="d"
+        Background="#FF2C2D2E"
+        Title="Liquid Engine Editor (PRE_ALPHA v.0.0.001 - 2017/10/5)" Height="350" Width="525">
+    <Grid>
+        <Label FontSize="35px" Foreground="#FF07B4E8" FontFamily="Roboto Light" Content="Liquid Engine Editor" HorizontalAlignment="Left" Margin="107,30,0,0" VerticalAlignment="Top"/>
+        <Button Click="create_Project" Content="Create a new project" Foreground="White"  BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" FontSize="18px" Height="48" Margin="81,104,0,0" VerticalAlignment="Top" Width="358"/>
+        <Button Click="open_Project" Content="Open an existing project" Foreground="White"  BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" FontSize="18px" Height="48" Margin="81,173,0,0" VerticalAlignment="Top" Width="358"/>
+        <Button Click="download_Assets" Content="Download assets" Foreground="White" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Left" FontSize="18px" Height="48" Margin="81,244,0,0" VerticalAlignment="Top" Width="358"/>
+
+    </Grid>
+    
+</Window>
+
